@@ -3,7 +3,7 @@ import { StyleSheet, View, Button, FlatList } from "react-native";
 
 import GoalItem from "./components/GoalItems";
 import GoalInput from "./components/GoalInput";
-
+//hello
 export default function App() {
   const [courseGoals, setCourseGoal] = useState([]);
   const [isAddMode, setAddMode] = useState(false);
